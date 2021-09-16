@@ -1,0 +1,11 @@
+.story {
+  padding-left: 1px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+.back5 {
+  left:5px !important;
+  bottom: 550px !important;
+  position:absolute;
+  color: white;
+}

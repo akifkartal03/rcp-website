@@ -1,0 +1,67 @@
+.myImage {
+  width: 400px;
+  height: 240px;
+  justify-content: "center";
+  align-items: "center";
+  padding-left: 15px;
+}
+.myColor {
+  background-color: #f5f1f1;
+  padding-top: 10px;
+}
+.kmp {
+  padding-left: 20;
+}
+.exdiv {
+  padding: 10px;
+}
+.img2 {
+  width: 424px;
+  height: 270px;
+  justify-content: "center";
+  align-items: "center";
+}
+.footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.name {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  color: #205296;
+}
+.name2 {
+  padding-top: 15px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  color: #205296;
+}
+.name3 {
+  padding-top: 5px;
+  color: #205296;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+}
+.cardTitle {
+  margin-left: 20px;
+  margin-top: 5px;
+  font-weight: 600;
+  color: #205296;
+}
+
+.cardTitle2 {
+  margin-left: 20px;
+  margin-top: 15px;
+  font-weight: 600;
+  color: #205296;
+}

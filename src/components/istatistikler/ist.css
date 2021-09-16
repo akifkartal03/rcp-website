@@ -1,0 +1,27 @@
+.baslik3 {
+  border-color: #205296;
+  height: 60px;
+  border-radius: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom:0px;
+}
+.yazi2 {
+  padding-top: 5px;
+  padding-left: 120px;
+  color: rgb(255, 255, 255);
+}
+.bnt5 {
+  padding-left: 0px;
+  padding-top: -60px;
+}
+.img6 {
+  height: 70px;
+  justify-content: "center";
+  align-items: "center";
+  border-radius: 0px;
+  padding-top: 0px;
+  border-color: #205296;
+}

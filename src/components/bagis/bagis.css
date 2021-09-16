@@ -1,0 +1,88 @@
+.detay {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.button {
+  width: 200px;
+  height: 45px;
+}
+.myDiv {
+  padding-left: 130px;
+  padding-bottom: 20px;
+}
+.text {
+  color: white;
+  padding-top: 2px;
+}
+.link {
+  padding-left: 50px;
+  padding-top: 15px;
+  color: rgb(163, 44, 44);
+}
+.exdiv {
+  padding: 10px;
+}
+.img2 {
+  width: 424px;
+  height: 270px;
+  justify-content: "center";
+  align-items: "center";
+}
+.mySc5 {
+  margin-left: 80px;
+  margin-right: 90px;
+  margin-bottom: 20px;
+}
+.baslik {
+  border-color: white;
+  height: 70px;
+  border-radius: 0px;
+  padding-top: 0px;
+}
+.back {
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+.img5 {
+  height: 70px;
+  justify-content: "center";
+  align-items: "center";
+  border-radius: 0px;
+  padding-top: 0px;
+}
+.baslik2 {
+  padding-top: 0px;
+}
+.yazi {
+  padding-left: 120px;
+  color: rgb(95, 95, 95);
+}
+
+.buttonPay {
+  width: 130px;
+  border-radius: 30px;
+  background-color: #205296;
+}
+.buttonKatil {
+  width: 130px;
+  border-radius: 30px;
+  background-color: #d11242;
+}
+.cardTitle {
+  margin-left: 20px;
+  margin-top: 5px;
+  font-weight: 600;
+  color: #205296;
+}
+
+.cardTitle2 {
+  margin-left: 20px;
+  margin-top: 15px;
+  font-weight: 600;
+  color: #205296;
+}

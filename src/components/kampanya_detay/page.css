@@ -1,0 +1,49 @@
+.detay {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.button2 {
+  width: 150px;
+  height: 45px;
+  padding-top: 8px;
+  border-radius: 30px;
+  background-color: #205296;
+  border-color: #205296;
+  
+}
+.myDiv {
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+.text {
+  color: white;
+  padding-top: 2px;
+}
+.link{
+  padding-left: 50px;
+  padding-top: 15px;
+  color:rgb(163, 44, 44);
+}
+.exdiv{  
+  padding: 10px;
+}
+.img2{
+  width: 424px;
+  height: 270px;
+  justify-content: "center";
+  align-items: "center";
+}
+.mySc{
+  margin-left: 80px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+.al{
+  font-weight: bold;
+  background-color: white;
+}
+.alText{
+  font-weight: bold;
+  margin-top: 5px;
+  color: green;
+}
