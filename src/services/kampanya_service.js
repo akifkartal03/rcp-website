@@ -7,10 +7,10 @@ export function getStories() {
   return http.get("/GetStories");
 }
 export function getDefaults() {
-  return http.get("/GetInterDefaults");
+  return http.get("/GetDefaults");
 }
 export function getDonations() {
-  return http.get("/GetInterDonations");
+  return http.get("/GetDonations");
 }
 export function getDummy(id) {
   return http.get(`/GetDummyCampaigns/${id}`);
