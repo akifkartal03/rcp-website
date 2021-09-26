@@ -27,7 +27,7 @@ const BagisDetay = (props) => {
         // eslint-disable-next-line
         if (value.CampaignId == id) {
           // eslint-disable-next-line
-          if (value.CustomerEnrollmentStatus == 1) {
+          if (value.CustomerEnrollmentStatus == 2) {
             setAttendance(true);
             setLoad(true);
           } else {

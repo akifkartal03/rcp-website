@@ -39,18 +39,8 @@ const LoginPage = (props) => {
   const validatePassword = () => {
     setPasswordError(password.length > 0 ? null : "Boş Bırakılamaz!");
   };
-  const notifyError = (e) =>
-    toast.error(e, {
-      position: "bottom-center",
-      autoClose: 5000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      theme: "colored",
-    });
-    const notifyWarn = (e) =>
+
+  const notifyWarn = (e) =>
     toast.warn(e, {
       position: "bottom-center",
       autoClose: 5000,
@@ -73,72 +63,68 @@ const LoginPage = (props) => {
       theme: "colored",
     });
   const onSubmit = async (e) => {
-    if ("123" === password && username > 0) {
-      getCustomerDefined(username)
-        .then((response) => {
-          if ((response.data).length > 0) {
-            const user = {
-              customerNo: username,
-              seenStories: ["test"],
-              customerDef: response.data,
-              stories: props.str,
-              defs: props.def,
-              donates: props.donate,
-            };
-            dispatch(setUSer(user));
-            notifySuccess("Giriş Başarılı");
-            history.push("/anasayfa");
-          } else {
-            getCustomerDefined(username)
-              .then((response) => {
-                if ((response.data).length > 0) {
-                  const user = {
-                    customerNo: username,
-                    seenStories: ["test"],
-                    customerDef: response.data,
-                    stories: props.str,
-                    defs: props.def,
-                    donates: props.donate,
-                  };
-                  dispatch(setUSer(user));
-                  notifySuccess("Giriş Başarılı");
-                  history.push("/anasayfa");
-                } else {
-                  const user = {
-                    customerNo: username,
-                    seenStories: ["test"],
-                    customerDef: response.data,
-                    stories: props.str,
-                    defs: props.def,
-                    donates: props.donate,
-                  };
-                  dispatch(setUSer(user));
-                  notifyWarn("Server is too busy, You may need relogin again!");
-                  history.push("/anasayfa");
-                }
-              })
-              .catch((e) => {
-                console.log(e);
-              });
-          }
-        })
-        .catch((e) => {
-          console.log(e);
-        });
-    } else {
-      notifyError("Giriş bilgileri hatalı!");
-    }
+    getCustomerDefined(8)
+      .then((response) => {
+        if (response.data.length > 0) {
+          const user = {
+            customerNo: 8,
+            seenStories: ["test"],
+            customerDef: response.data,
+            stories: props.str,
+            defs: props.def,
+            donates: props.donate,
+          };
+          dispatch(setUSer(user));
+          notifySuccess("Giriş Başarılı");
+          history.push("/anasayfa");
+        } else {
+          getCustomerDefined(8)
+            .then((response) => {
+              if (response.data.length > 0) {
+                const user = {
+                  customerNo: 8,
+                  seenStories: ["test"],
+                  customerDef: response.data,
+                  stories: props.str,
+                  defs: props.def,
+                  donates: props.donate,
+                };
+                dispatch(setUSer(user));
+                notifySuccess("Giriş Başarılı");
+                history.push("/anasayfa");
+              } else {
+                const user = {
+                  customerNo: 8,
+                  seenStories: ["test"],
+                  customerDef: response.data,
+                  stories: props.str,
+                  defs: props.def,
+                  donates: props.donate,
+                };
+                dispatch(setUSer(user));
+                notifyWarn("Server is too busy, You may need relogin again!");
+                history.push("/anasayfa");
+              }
+            })
+            .catch((e) => {
+              console.log(e);
+            });
+        }
+      })
+      .catch((e) => {
+        console.log(e);
+      });
   };
   return (
     <div>
       <div className="Login">
         <div className="loginImage">
           <img
-            src="https://i.ibb.co/qyR24Fc/Microsoft-Teams-image-16.png"
+            src="https://i.ibb.co/YQBCbPP/Microsoft-Teams-image-12.png"
             width="250"
             style={{
               position: "relative",
-              paddingTop: 120,
+              marginTop: 80,
               zIndex: 9,
               paddingBottom: 40,
             }}
@@ -160,6 +146,7 @@ const LoginPage = (props) => {
                 onBlur={validateUserName}
                 autoComplete="Username"
                 data-testid="input1"
+                value="12"
                 required
               />
             </div>
@@ -174,6 +161,7 @@ const LoginPage = (props) => {
                 onBlur={validatePassword}
                 autoComplete="Password"
                 data-testid="input2"
+                value="123"
                 required
               />
               <i onClick={togglePasswordVisibility}>{eye}</i>

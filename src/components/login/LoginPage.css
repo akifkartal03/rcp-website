@@ -10,6 +10,9 @@
 .header {
   font-family: Open Sans MS, Open Sans;
 }
+.form3{
+  margin-top: 50px;
+}
 input {
   position: relative;
   border-radius: 5px;

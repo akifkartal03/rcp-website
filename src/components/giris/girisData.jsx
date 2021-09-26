@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import GirisPage from "./girisPage";
+import GirisPage from "../loading/pacman";
 import LoginPage from "../login/LoginPage2";
 import { getStories,getDefaults,getDonations} from "../../services/kampanya_service";
 const GirisData = () => {

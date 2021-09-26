@@ -11,7 +11,7 @@ const StoryDetay = (props) => {
       <Sticky>
         <Row>
           <img
-            src="https://i.ibb.co/L6jr4zq/test5.png"
+            src="https://i.ibb.co/tLKZfjk/Microsoft-Teams-image-12.png"
             alt="head"
             width="500px"
             height="70"
