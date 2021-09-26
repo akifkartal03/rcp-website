@@ -1,25 +1,13 @@
-# Grup5-CRM Web sitesi
+# Intertech 2021 Online Internship Project
 
-## Projeyi Çalıştırma
+## Remastered Campaign Pages Website
 
-Projeyi çalıştırmak için bilgisayarınıza clone yaptıktan sonra ilgili dosyaların yüklenmesi için proje dizininde "npm install" komutu çalıştırması gereklidir.
+### Brief Description
 
-Daha sonra "npm start" diyerek projeyi web browser'da görünteleyebilirsiniz.
+In this project you can see various campaigns with a modern design.
 
-## Projeyi Geliştirme Kuralları
+### Test Document
+- Test Document about this project can be found [here](https://drive.google.com/drive/folders/1r1hAf49-6icioclAkpMs6auiL0NAM41M?usp=sharing).
 
-Projeyi geliştirirken master branch’ine direk pushlama yapmıyoruz. Master bizim deploy etmeye hazır production kodumuz olacak. Bunun yerine feature branchleri açıp mesela feat/login gibi bu branch üzerinden geliştirme yapıp en son geliştirme bitince pull request atıyoruz yine direk master'a merge yapmıyoruz.
-
-Kısaca adımlar şu şekilde örnek olarak;
-
-Master branch'ı üzerindeyken;
-
-- git branch feat/login
-- git checkout feat/login
-- bazı geliştirmeler yapıldı …..
-- git add .
-- git commit -m "uygun bir commit mesajı"
-- git push origin feat/login
--  ve son olarak azure devops’daki repodan master'a pull request açma.
-
-
+### Project Management
+- Mural was used as a Project Management tool and all Agile and Scrum techniques was applied with 14 team member.
