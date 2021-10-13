@@ -11,3 +11,11 @@ In this project you can see various campaigns with a modern design.
 
 ### Project Management
 - Mural was used as a Project Management tool and all Agile and Scrum techniques was applied with 14 team member.
+
+### Screenshots
+<br>
+<p align="center">
+  <img width="350" height="600" src="https://i.ibb.co/WWw0VTx/test2.jpg">
+  &nbsp;&nbsp;&nbsp;
+  <img width="350" height="600" src="https://i.ibb.co/YDWTQB0/test3.jpg">
+</p>
