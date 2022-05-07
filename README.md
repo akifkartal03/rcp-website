@@ -20,6 +20,14 @@ In this project you can see various campaigns with a modern design such as insta
   <img width="700" height="400" src="https://i.ibb.co/2qmZwrC/teks.png">
 </p>
 
+### Project Architecture
+
+- In order to make this project following architecture have been created.
+
+<p align="center">
+  <img width="1100" height="250" src="https://i.ibb.co/HKZm3Sz/backend.jpg">
+</p>
+
 ### Screenshots
 <br>
 <p align="center">
