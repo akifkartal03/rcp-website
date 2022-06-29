@@ -28,10 +28,20 @@ In this project you can see various campaigns with a modern design such as insta
   <img width="1100" height="250" src="https://i.ibb.co/HKZm3Sz/backend.jpg">
 </p>
 
-### Website with React
+### Front-end with React
 <br>
 <p align="center">
   <img width="350" height="600" src="https://i.ibb.co/WWw0VTx/test2.jpg">
   &nbsp;&nbsp;&nbsp;
   <img width="350" height="600" src="https://i.ibb.co/YDWTQB0/test3.jpg">
+</p>
+
+### Partial Commit History
+<br>
+<p align="center">
+  <img width="300" height="600" src="https://i.ibb.co/WWw0VTx/test2.jpg">
+  &nbsp;&nbsp;&nbsp;
+  <img width="300" height="600" src="https://i.ibb.co/YDWTQB0/test3.jpg">
+  &nbsp;&nbsp;&nbsp;
+  <img width="300" height="600" src="https://i.ibb.co/YDWTQB0/test3.jpg">
 </p>
