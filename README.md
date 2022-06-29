@@ -25,7 +25,7 @@ In this project you can see various campaigns with a modern design such as insta
 - In order to make this project following architecture have been created.
 
 <p align="center">
-  <img width="1100" height="250" src="https://i.ibb.co/HKZm3Sz/backend.jpg">
+  <img width="1100" height="250" src="https://github.com/akifkartal03/rcp-website/blob/master/images/backend.jpg">
 </p>
 
 ### Front-end with React
@@ -39,9 +39,7 @@ In this project you can see various campaigns with a modern design such as insta
 ### Partial Commit History
 <br>
 <p align="center">
-  <img width="300" height="600" src="https://i.ibb.co/WWw0VTx/test2.jpg">
-  &nbsp;&nbsp;&nbsp;
-  <img width="300" height="600" src="https://i.ibb.co/YDWTQB0/test3.jpg">
-  &nbsp;&nbsp;&nbsp;
-  <img width="300" height="600" src="https://i.ibb.co/YDWTQB0/test3.jpg">
+  <img width="330" height="550" src="https://github.com/akifkartal03/rcp-website/blob/master/images/3.JPG">
+  <img width="330" height="550" src="https://github.com/akifkartal03/rcp-website/blob/master/images/4.JPG">
+  <img width="330" height="550" src="https://github.com/akifkartal03/rcp-website/blob/master/images/5.JPG">
 </p>
