@@ -39,7 +39,7 @@ In this project you can see various campaigns with a modern design such as insta
 ### Partial Commit History
 <br>
 <p align="center">
-  <img width="330" height="550" src="https://github.com/akifkartal03/rcp-website/blob/master/images/3.JPG">
-  <img width="330" height="550" src="https://github.com/akifkartal03/rcp-website/blob/master/images/4.JPG">
-  <img width="330" height="550" src="https://github.com/akifkartal03/rcp-website/blob/master/images/5.JPG">
+  <img width="325" height="550" src="https://github.com/akifkartal03/rcp-website/blob/master/images/3.JPG">
+  <img width="325" height="550" src="https://github.com/akifkartal03/rcp-website/blob/master/images/4.JPG">
+  <img width="325" height="550" src="https://github.com/akifkartal03/rcp-website/blob/master/images/5.JPG">
 </p>
