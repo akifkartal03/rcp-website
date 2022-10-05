@@ -36,7 +36,7 @@ In this project you can see various campaigns with a modern design such as insta
   <img width="350" height="600" src="https://i.ibb.co/YDWTQB0/test3.jpg">
 </p>
 
-### Partial Commit History
+### Partial Commit History on Azure Devops
 <br>
 <p align="center">
   <img width="400" height="600" src="https://github.com/akifkartal03/rcp-website/blob/master/images/4.JPG">
